@@ -1,0 +1,148 @@
+#body {
+    font-size: 25px;
+    margin: 0%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    text-shadow: grey 0.5px 0px;
+    letter-spacing: 0.5px;
+}
+
+#card {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    margin: 40px auto;
+    border: 5px solid lightgrey;
+    border-radius: 10px;
+    width: 100%;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.h1 {
+     text-shadow:
+        0 0 5px #2daaf2, 0 0 10px #2daaf2,
+        0 0 20px #2daaf2, 0 0 40px #2daaf2;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 70px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.message {
+    background-color: #242526;
+    /* border-radius: 10px; */
+    border: 5px solid lightgray;
+    font-size: 25px;
+    font-family: 'Oswald';
+    font-weight: bold;
+    color: aquamarine;
+    letter-spacing: 1px     ;
+    /* font-size: 2vw; */
+    margin: 10px 15px auto 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-around;
+    margin: 0px 15px 15px 15px;
+}
+
+#title {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+#title::placeholder {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+#h1id {
+    text-shadow:
+        0 0 10px #009efa, 0 0 20px #009efa,
+        0 0 30px #009efa, 0 0 50px #009efa;
+}
+
+#btn_x {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.btn {
+    /* opacity: 0.9; */
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: unset;
+    margin: 2px;
+    font-family: 'Oswald';
+    font-size: 23px;
+    font-weight: 300;
+    background-color: slateblue;
+    color: white;
+    /* border-radius: 6px; */
+    margin-bottom: 4px;
+}
+
+.btn:hover, .btn:active {
+    background: darkslategray;
+}
+
+#message_1::placeholder {
+    color: white;
+    font-size: 25px;
+}
+
+#new_name::placeholder {
+    color: grey;
+}
+
+.h3 {
+    text-shadow:
+        0 0 1px yellow, 0 0 2px yellow,
+        0 0 10px yellow, 0 0 20px yellow;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#notes {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.noteschild {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 10px;
+    border: 5px solid lightgrey;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: 20px;
+}   
+
+footer {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow:
+        0 0 1px orange, 0 0 2px orange,
+        0 0 10px orange, 0 0 20px orange;
+}
+
+#footerid {
+    background-color: white;
+}
